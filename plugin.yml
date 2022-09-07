@@ -1,0 +1,23 @@
+name: HubCore
+main: com.mczone.hubcore.HubCore
+version: 1.0.0
+author: c_co
+commands:
+  setspawn:
+    description: sets current server spawn.
+    usage: /<command>
+  delspawn:
+    description: removes server spawn.
+    usage: /<command>
+  load:
+    description: Loads specified map.
+    usage: /<command> <map name>
+  map:
+    description: Teleport to specified map.
+    usage: /<command> <map name>
+  save:
+    description: Save changes to map.
+    usage: /<command> <map name>
+  unload:
+    description: Unload specified map.
+    usage: /<command> <map name>
